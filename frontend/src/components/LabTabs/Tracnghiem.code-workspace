@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../.."
+		},
+		{
+			"path": "../../../../../Label-Free-Bootstrap-Admin-Template-master"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Label-Free-Bootstrap-Admin-Template-master"
+	}
+}

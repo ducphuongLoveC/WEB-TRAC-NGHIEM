@@ -1,0 +1,40 @@
+/* Select.module.scss */
+
+.select-container {
+  margin-bottom: 20px;
+}
+
+.select-container select {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.select-container select:hover,
+.select-container select:focus {
+  border-color: #3498db;
+}
+
+.select-container select option {
+  padding: 10px;
+  font-size: 14px; /* Thiết lập kích thước chữ cho các option */
+  color: #333; /* Màu chữ cho các option */
+  background-color: #fff; /* Màu nền cho các option */
+}
+
+.select-container select option:first-child {
+  color: #aaa;
+}
+
+.select-container select option:hover {
+  background-color: #f2f2f2; /* Màu nền khi di chuột qua các option */
+}
+
+.select-container select option:selected {
+  background-color: #3498db; /* Màu nền của option đang được chọn */
+  color: #fff; /* Màu chữ của option đang được chọn */
+}

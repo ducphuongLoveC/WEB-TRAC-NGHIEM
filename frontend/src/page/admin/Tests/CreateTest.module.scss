@@ -1,0 +1,22 @@
+.create_box {
+    min-height: 75vh;
+    display: flex;
+
+}
+.box_left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    width: 40%;
+    margin-right: 1%;
+}
+.box_right {
+
+    max-height: 75vh;
+    overflow: auto;
+    padding: 20px;
+    background-color: #fff;
+    width: 55%;
+}

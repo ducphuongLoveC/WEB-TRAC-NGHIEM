@@ -1,0 +1,27 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    scrollbar-width: none; /* Firefox */
+}
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+
+/* Hoặc làm mờ thanh cuộn */
+::-webkit-scrollbar {
+    width: 8px; /* Độ rộng của thanh cuộn */
+    background-color: rgba(0, 0, 0, 0.1); /* Màu nền của thanh cuộn (làm mờ) */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); /* Màu của tay nắm thanh cuộn (làm mờ) */
+    border-radius: 4px; /* Bo tròn góc của tay nắm thanh cuộn */
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.1); /* Màu của tay nắm thanh cuộn và màu nền của thanh cuộn */
+}

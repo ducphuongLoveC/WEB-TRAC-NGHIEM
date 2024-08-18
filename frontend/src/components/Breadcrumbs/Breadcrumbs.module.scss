@@ -1,0 +1,48 @@
+/* Breadcrumbs.module.scss */
+
+.breadcrumbs {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+
+    ul {
+      list-style: none;
+      display: flex;
+      padding: 0;
+      margin: 0;
+    }
+  
+    li {
+      margin-right: 10px;
+      display: flex;
+      align-items: center;
+  
+      a {
+        text-decoration: none;
+        color: #3498db;
+        font-weight: bold;
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+  
+      &::after {
+        content: '/';
+        margin-left: 10px;
+        color: #ccc;
+      }
+  
+      &:last-child {
+        &::after {
+          content: '';
+        }
+  
+        a {
+          color: #666;
+          pointer-events: none;
+        }
+      }
+    }
+  }
+  
